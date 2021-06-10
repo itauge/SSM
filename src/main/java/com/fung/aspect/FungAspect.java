@@ -16,7 +16,6 @@ public class FungAspect {
     //進行增强
     @Before("pt()")
     public void before(){
-        System.out.println("leaf01...");
-        System.out.println("hey");
+        System.out.println("before");
     }
 }
