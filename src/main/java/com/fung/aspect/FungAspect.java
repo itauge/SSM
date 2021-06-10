@@ -17,5 +17,6 @@ public class FungAspect {
     @Before("pt()")
     public void before(){
         System.out.println("leaf01...");
+        System.out.println("hey");
     }
 }
