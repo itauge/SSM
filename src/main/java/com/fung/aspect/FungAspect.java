@@ -18,5 +18,7 @@ public class FungAspect {
     public void before(){
         System.out.println("leaf01...");
         System.out.println("hey");
+        System.out.println("hey");
+
     }
 }
